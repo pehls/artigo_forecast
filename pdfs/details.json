@@ -1,0 +1,149 @@
+{
+	"summary": [
+		{
+			"code":"2409.04542",
+			"title":"Towards Hybrid Embedded Feature Selection and Classification Approach with Slim-TSF",
+			"summary":"Traditional solar flare forecasting approaches have mostly relied on physics-based or data-driven models using solar magnetograms, treating flare predictions as a point-in-time classification problem. This approach has limitations, particularly in capturing the evolving nature of solar activity. Recognizing the limitations of traditional flare forecasting approaches, our research aims to uncover hidden relationships and the evolutionary characteristics of solar flares and their source regions. Our previously proposed Sliding Window Multivariate Time Series Forest (Slim-TSF) has shown the feasibility of usage applied on multivariate time series data. A significant aspect of this study is the comparative analysis of our updated Slim-TSF framework against the original model outcomes. Preliminary findings indicate a notable improvement, with an average increase of 5% in both the True Skill Statistic (TSS) and Heidke Skill Score (HSS). This enhancement not only underscores the effectiveness of our refined methodology but also suggests that our systematic evaluation and feature selection approach can significantly advance the predictive accuracy of solar flare forecasting models.",
+			"authors":["Anli Ji", "Chetraj Pandey", "Berkay Aydin"],
+			"code_data":"06/09/2024",
+			"code_number":"04542",
+			"link":"https://arxiv.org/abs/2409.04542"
+		},
+		{
+			"code":"2408.09960",
+			"title":"Causality-Inspired Models for Financial Time Series Forecasting",
+			"summary":"We introduce a novel framework to financial time series forecasting that leverages causality-inspired models to balance the trade-off between invariance to distributional changes and minimization of prediction errors. To the best of our knowledge, this is the first study to conduct a comprehensive comparative analysis among state-of-the-art causal discovery algorithms, benchmarked against non-causal feature selection techniques, in the application of forecasting asset returns. Empirical evaluations demonstrate the efficacy of our approach in yielding stable and accurate predictions, outperforming baseline models, particularly in tumultuous market conditions.",
+			"authors":["Daniel Cunha Oliveira", "Yutong Lu", "Xi Lin", "Mihai Cucuringu", "Andre Fujita"],
+			"code_data":"19/08/2024",
+			"code_number":"09960",
+			"link":"https://arxiv.org/abs/2408.09960"
+		},
+		{
+			"code":"2408.08388",
+			"title":"Classification of High-dimensional Time Series in Spectral Domain using Explainable Features",
+			"summary":"Interpretable classification of time series presents significant challenges in high dimensions. Traditional feature selection methods in the frequency domain often assume sparsity in spectral density matrices (SDMs) or their inverses, which can be restrictive for real-world applications. In this article, we propose a model-based approach for classifying high-dimensional stationary time series by assuming sparsity in the difference between inverse SDMs. Our approach emphasizes the interpretability of model parameters, making it especially suitable for fields like neuroscience, where understanding differences in brain network connectivity across various states is crucial. The estimators for model parameters demonstrate consistency under appropriate conditions. We further propose using standard deep learning optimizers for parameter estimation, employing techniques such as mini-batching and learning rate scheduling. Additionally, we introduce a method to screen the most discriminatory frequencies for classification, which exhibits the sure screening property under general conditions. The flexibility of the proposed model allows the significance of covariates to vary across frequencies, enabling nuanced inferences and deeper insights into the underlying problem. The novelty of our method lies in the interpretability of the model parameters, addressing critical needs in neuroscience. The proposed approaches have been evaluated on simulated examples and the `Alert-vs-Drowsy' EEG dataset.",
+			"authors":["Sarbojit Roy", "Malik Shahid Sultan", "Hernando Ombao"],
+			"code_data":"15/08/2024",
+			"code_number":"08388",
+			"link":"https://arxiv.org/abs/2408.08388"
+		},
+		{
+			"code":"2407.16048",
+			"title":"HIERVAR: A Hierarchical Feature Selection Method for Time Series Analysis",
+			"summary":"Time series classification stands as a pivotal and intricate challenge across various domains, including finance, healthcare, and industrial systems. In contemporary research, there has been a notable upsurge in exploring feature extraction through random sampling. Unlike deep convolutional networks, these methods sidestep elaborate training procedures, yet they often necessitate generating a surplus of features to comprehensively encapsulate time series nuances. Consequently, some features may lack relevance to labels or exhibit multi-collinearity with others. In this paper, we propose a novel hierarchical feature selection method aided by ANOVA variance analysis to address this challenge. Through meticulous experimentation, we demonstrate that our method substantially reduces features by over 94% while preserving accuracy -- a significant advancement in the field of time series analysis and feature selection.",
+			"authors":["Alireza Keshavarzian", "Shahrokh Valaee"],
+			"code_data":"22/07/2024",
+			"code_number":"16048",
+			"link":"https://arxiv.org/abs/2407.16048"
+		},
+		{
+			"code":"2406.04390",
+			"title":"Sensitivity Assessing to Data Volume for forecasting: introducing similarity methods as a suitable one in Feature selection methods",
+			"summary":"In predictive modeling, overfitting poses a significant risk, particularly when the feature count surpasses the number of observations, a common scenario in high-dimensional data sets. To mitigate this risk, feature selection is employed to enhance model generalizability by reducing the dimensionality of the data. This study focuses on evaluating the stability of feature selection techniques with respect to varying data volumes, particularly employing time series similarity methods. Utilizing a comprehensive dataset that includes the closing, opening, high, and low prices of stocks from 100 high-income companies listed in the Fortune Global 500, this research compares several feature selection methods including variance thresholds, edit distance, and Hausdorff distance metrics. The aim is to identify methods that show minimal sensitivity to the quantity of data, ensuring robustness and reliability in predictions, which is crucial for financial forecasting. Results indicate that among the tested feature selection strategies, the variance method, edit distance, and Hausdorff methods exhibit the least sensitivity to changes in data volume. These methods therefore provide a dependable approach to reducing feature space without significantly compromising the predictive accuracy. This study not only highlights the effectiveness of time series similarity methods in feature selection but also underlines their potential in applications involving fluctuating datasets, such as financial markets or dynamic economic conditions. The findings advocate for their use as principal methods for robust feature selection in predictive analytics frameworks.",
+			"authors":["Mahdi Goldani", "Soraya Asadi Tirvan"],
+			"code_data":"06/06/2024",
+			"code_number":"04390",
+			"link":"https://arxiv.org/abs/2406.04390"
+		},
+		{
+			"code":"2405.19729",
+			"title":"Dynamic feature selection in medical predictive monitoring by reinforcement learning",
+			"summary":"In this paper, we investigate dynamic feature selection within multivariate time-series scenario, a common occurrence in clinical prediction monitoring where each feature corresponds to a bio-test result. Many existing feature selection methods fall short in effectively leveraging time-series information, primarily because they are designed for static data. Our approach addresses this limitation by enabling the selection of time-varying feature subsets for each patient. Specifically, we employ reinforcement learning to optimize a policy under maximum cost restrictions. The prediction model is subsequently updated using synthetic data generated by trained policy. Our method can seamlessly integrate with non-differentiable prediction models. We conducted experiments on a sizable clinical dataset encompassing regression and classification tasks. The results demonstrate that our approach outperforms strong feature selection baselines, particularly when subjected to stringent cost limitations. Code will be released once paper is accepted.",
+			"authors":["Yutong Chen", "Jiandong Gao", "Ji Wu"],
+			"code_data":"30/05/2024",
+			"code_number":"19729",
+			"link":"https://arxiv.org/abs/2405.19729"
+		},
+		{
+			"code":"2403.09847",
+			"title":"Forecasting Geoffective Events from Solar Wind Data and Evaluating the Most Predictive Features through Machine Learning Approaches",
+			"summary":"This study addresses the prediction of geomagnetic disturbances by exploiting machine learning techniques. Specifically, the Long-Short Term Memory recurrent neural network, which is particularly suited for application over long time series, is employed in the analysis of in-situ measurements of solar wind plasma and magnetic field acquired over more than one solar cycle, from 2005 to 2019, at the Lagrangian point L1. The problem is approached as a binary classification aiming to predict one hour in advance a decrease in the SYM-H geomagnetic activity index below the threshold of −50 nT, which is generally regarded as indicative of magnetospheric perturbations. The strong class imbalance issue is tackled by using an appropriate loss function tailored to optimize appropriate skill scores in the training phase of the neural network. Beside classical skill scores, value-weighted skill scores are then employed to evaluate predictions, suitable in the study of problems, such as the one faced here, characterized by strong temporal variability. For the first time, the content of magnetic helicity and energy carried by solar transients, associated with their detection and likelihood of geo-effectiveness, were considered as input features of the network architecture. Their predictive capabilities are demonstrated through a correlation-driven feature selection method to rank the most relevant characteristics involved in the neural network prediction model. The optimal performance of the adopted neural network in properly forecasting the onset of geomagnetic storms, which is a crucial point for giving real warnings in an operational setting, is finally showed.",
+			"authors":["Sabrina Guastavino", "Katsiaryna Bahamazava", "Emma Perracchione", "Fabiana Camattari", "Gianluca Audone", "Daniele Telloni", "Roberto Susino", "Gianalfredo Nicolini", "Silvano Fineschi", "Michele Piana", "Anna Maria Massone"],
+			"code_data":"14/03/2024",
+			"code_number":"09847",
+			"link":"https://arxiv.org/abs/2403.09847"
+		},
+		{
+			"code":"2403.08403",
+			"title":"FSDR: A Novel Deep Learning-based Feature Selection Algorithm for Pseudo Time-Series Data using Discrete Relaxation",
+			"summary":"Conventional feature selection algorithms applied to Pseudo Time-Series (PTS) data, which consists of observations arranged in sequential order without adhering to a conventional temporal dimension, often exhibit impractical computational complexities with high dimensional data. To address this challenge, we introduce a Deep Learning (DL)-based feature selection algorithm: Feature Selection through Discrete Relaxation (FSDR), tailored for PTS data. Unlike the existing feature selection algorithms, FSDR learns the important features as model parameters using discrete relaxation, which refers to the process of approximating a discrete optimisation problem with a continuous one. FSDR is capable of accommodating a high number of feature dimensions, a capability beyond the reach of existing DL-based or traditional methods. Through testing on a hyperspectral dataset (i.e., a type of PTS data), our experimental results demonstrate that FSDR outperforms three commonly used feature selection algorithms, taking into account a balance among execution time, R2, and RMSE.",
+			"authors":["Mohammad Rahman", "Manzur Murshed", "Shyh Wei Teng", "Manoranjan Paul"],
+			"code_data":"13/03/2024",
+			"code_number":"08403",
+			"link":"https://arxiv.org/abs/2403.08403"
+		},
+		{
+			"code":"2402.14819",
+			"title":"A Novel method for Schizophrenia classification using nonlinear features and neural networks",
+			"summary":"One notable method for recording brainwaves to identify neurological problems is electroencephalography (hereafter EEG). A trained neuro physician can learn more about how the brain functions through the use of EEGs. However conventionally, EEGs are only used to examine neurological problems (Eg. Seizures). But abnormal links to neurological circuits can also exist in psychological illnesses like Schizophrenia. Hence EEGs can be an alternate source of data for detection and classification of psychological disorders. A study on the classification of EEG data obtained from healthy individuals and individuals experiencing schizophrenia is conducted. The inherent nonlinear nature of brain waves are made use for the dimensionality reduction of the data. Nonlinear parameters such as Lyapunov exponent (LE) and Hurst exponent (HE) were selected as essential features. The EEG data was obtained from the openly available EEG database of MV. Lomonosov Moscow State university. To perform Noise reduction of the data, a more recently developed Tunable Q factor based wavelet transform (TQWT) is used . Finally for the classification, the 16 channel EEG time series is converted into spatial heatmaps using the aforementioned features. A convolutional neural network (CNN) is designed and trained with the modified data format for classification",
+			"authors":["Hari Prasad SV"],
+			"code_data":"30/12/2023",
+			"code_number":"14819",
+			"link":"https://arxiv.org/abs/2402.14819"
+		},
+		{
+			"code":"2310.19174",
+			"title":"Predicting recovery following stroke: deep learning, multimodal data and feature selection using explainable AI",
+			"summary":"Machine learning offers great potential for automated prediction of post-stroke symptoms and their response to rehabilitation. Major challenges for this endeavour include the very high dimensionality of neuroimaging data, the relatively small size of the datasets available for learning, and how to effectively combine neuroimaging and tabular data (e.g. demographic information and clinical characteristics). This paper evaluates several solutions based on two strategies. The first is to use 2D images that summarise MRI scans. The second is to select key features that improve classification accuracy. Additionally, we introduce the novel approach of training a convolutional neural network (CNN) on images that combine regions-of-interest extracted from MRIs, with symbolic representations of tabular data. We evaluate a series of CNN architectures (both 2D and a 3D) that are trained on different representations of MRI and tabular data, to predict whether a composite measure of post-stroke spoken picture description ability is in the aphasic or non-aphasic range. MRI and tabular data were acquired from 758 English speaking stroke survivors who participated in the PLORAS study. The classification accuracy for a baseline logistic regression was 0.678 for lesion size alone, rising to 0.757 and 0.813 when initial symptom severity and recovery time were successively added. The highest classification accuracy 0.854 was observed when 8 regions-of-interest was extracted from each MRI scan and combined with lesion size, initial severity and recovery time in a 2D Residual Neural this http URL findings demonstrate how imaging and tabular data can be combined for high post-stroke classification accuracy, even when the dataset is small in machine learning terms. We conclude by proposing how the current models could be improved to achieve even higher levels of accuracy using images from hospital scanners.",
+			"authors":["Adam White", "Margarita Saranti", "Artur d'Avila Garcez", "Thomas M. H. Hope", "Cathy J. Price", "Howard Bowman"],
+			"code_data":"29/10/2023",
+			"code_number":"19174",
+			"link":"https://arxiv.org/abs/2310.19174"
+		},
+		{
+			"code":"2310.17544",
+			"title":"Hierarchical Ensemble-Based Feature Selection for Time Series Forecasting",
+			"summary":"We introduce a novel ensemble approach for feature selection based on hierarchical stacking for non-stationarity and/or a limited number of samples with a large number of features. Our approach exploits the co-dependency between features using a hierarchical structure. Initially, a machine learning model is trained using a subset of features, and then the output of the model is updated using other algorithms in a hierarchical manner with the remaining features to minimize the target loss. This hierarchical structure allows for flexible depth and feature selection. By exploiting feature co-dependency hierarchically, our proposed approach overcomes the limitations of traditional feature selection methods and feature importance scores. The effectiveness of the approach is demonstrated on synthetic and well-known real-life datasets, providing significant scalable and stable performance improvements compared to the traditional methods and the state-of-the-art approaches. We also provide the source code of our approach to facilitate further research and replicability of our results.",
+			"authors":["Aysin Tumay", "Mustafa E. Aydin", "Ali T. Koc", "Suleyman S. Kozat"],
+			"code_data":"26/10/2023",
+			"code_number":"17544",
+			"link":"https://arxiv.org/abs/2310.17544"
+		},
+		{
+			"code":"2310.17494",
+			"title":"Topological feature selection for time series data",
+			"summary":"We use tools from applied topology for feature selection on vector-valued time series data. We employ persistent homology and sliding window embeddings to quantify the coordinated dynamics of time series. We describe an algorithm for gradient descent to assign scores, or weights, to the variables of the time series based on their contribution to the dynamics as quantified by persistent homology; the result is a convex combination of a subset of the variables. In this setting, we prove persistence vineyards are piecewise linear and we give a simple formula for the derivatives of the vines. We demonstrate our method of topological feature selection with synthetic data and C. elegans neuronal data.",
+			"authors":["Peter Bubenik", "Johnathan Bush"],
+			"code_data":"26/10/2023",
+			"code_number":"17494",
+			"link":"https://arxiv.org/abs/2310.17494"
+		},
+		{
+			"code":"2310.11059",
+			"title":"Causal Feature Selection via Transfer Entrop",
+			"summary":"Machine learning algorithms are designed to capture complex relationships between features. In this context, the high dimensionality of data often results in poor model performance, with the risk of overfitting. Feature selection, the process of selecting a subset of relevant and non-redundant features, is, therefore, an essential step to mitigate these issues. However, classical feature selection approaches do not inspect the causal relationship between selected features and target, which can lead to misleading results in real-world applications. Causal discovery, instead, aims to identify causal relationships between features with observational data. In this paper, we propose a novel methodology at the intersection between feature selection and causal discovery, focusing on time series. We introduce a new causal feature selection approach that relies on the forward and backward feature selection procedures and leverages transfer entropy to estimate the causal flow of information from the features to the target in time series. Our approach enables the selection of features not only in terms of mere model performance but also captures the causal information flow. In this context, we provide theoretical guarantees on the regression and classification errors for both the exact and the finite-sample cases. Finally, we present numerical validations on synthetic and real-world regression problems, showing results competitive w.r.t. the considered baselines.",
+			"authors":["Paolo Bonetti", "Alberto Maria Metelli", "Marcello Restelli"],
+			"code_data":"17/10/2023",
+			"code_number":"11059",
+			"link":"https://arxiv.org/abs/2310.11059"
+		},
+		{
+			"code":"2309.14518",
+			"title":"Detach-ROCKET: Sequential feature selection for time series classification with random convolutional kernels",
+			"summary":"Time Series Classification (TSC) is essential in fields like medicine, environmental science, and finance, enabling tasks such as disease diagnosis, anomaly detection, and stock price analysis. While machine learning models like Recurrent Neural Networks and InceptionTime are successful in numerous applications, they can face scalability issues due to computational requirements. Recently, ROCKET has emerged as an efficient alternative, achieving state-of-the-art performance and simplifying training by utilizing a large number of randomly generated features from the time series data. However, many of these features are redundant or non-informative, increasing computational load and compromising generalization. Here we introduce Sequential Feature Detachment (SFD) to identify and prune non-essential features in ROCKET-based models, such as ROCKET, MiniRocket, and MultiRocket. SFD estimates feature importance using model coefficients and can handle large feature sets without complex hyperparameter tuning. Testing on the UCR archive shows that SFD can produce models with better test accuracy using only 10% of the original features. We named these pruned models Detach-ROCKET. We also present an end-to-end procedure for determining an optimal balance between the number of features and model accuracy. On the largest binary UCR dataset, Detach-ROCKET improves test accuracy by 0.6% while reducing features by 98.9%. By enabling a significant reduction in model size without sacrificing accuracy, our methodology improves computational efficiency and contributes to model interpretability. We believe that Detach-ROCKET will be a valuable tool for researchers and practitioners working with time series data, who can find a user-friendly implementation of the model at url{this https URL}.",
+			"authors":["Gonzalo Uribarri", "Federico Barone", "Alessio Ansuini", "Erik Fransén"],
+			"code_data":"25/09/2023",
+			"code_number":"14518",
+			"link":"https://arxiv.org/abs/2309.14518"
+		},
+		{
+			"code":"2309.13807",
+			"title":"Forecasting large collections of time series: feature-based methods",
+			"summary":"In economics and many other forecasting domains, the real world problems are too complex for a single model that assumes a specific data generation process. The forecasting performance of different methods changes depending on the nature of the time series. When forecasting large collections of time series, two lines of approaches have been developed using time series features, namely feature-based model selection and feature-based model combination. This chapter discusses the state-of-the-art feature-based methods, with reference to open-source software implementations.",
+			"authors":["Li Li", "Feng Li", "Yanfei Kang'"],
+			"code_data":"25/09/2023",
+			"code_number":"13807",
+			"link":"https://arxiv.org/abs/2309.13807"
+		},
+		{
+			"code":"2309.08499",
+			"title":"POCKET: Pruning Random Convolution Kernels for Time Series Classification from a Feature Selection Perspective",
+			"summary":"In recent years, two competitive time series classification models, namely, ROCKET and MINIROCKET, have garnered considerable attention due to their low training cost and high accuracy. However, they rely on a large number of random 1-D convolutional kernels to comprehensively capture features, which is incompatible with resource-constrained devices. Despite the development of heuristic algorithms designed to recognize and prune redundant kernels, the inherent time-consuming nature of evolutionary algorithms hinders efficient evaluation. To efficiently prune models, this paper eliminates feature groups contributing minimally to the classifier, thereby discarding the associated random kernels without direct evaluation. To this end, we incorporate both group-level (l2,1-norm) and element-level (l2-norm) regularizations to the classifier, formulating the pruning challenge as a group elastic net classification problem. An ADMM-based algorithm is initially introduced to solve the problem, but it is computationally intensive. Building on the ADMM-based algorithm, we then propose our core algorithm, POCKET, which significantly speeds up the process by dividing the task into two sequential stages. In Stage 1, POCKET utilizes dynamically varying penalties to efficiently achieve group sparsity within the classifier, removing features associated with zero weights and their corresponding kernels. In Stage 2, the remaining kernels and features are used to refit a l2-regularized classifier for enhanced performance. Experimental results on diverse time series datasets show that POCKET prunes up to 60% of kernels without a significant reduction in accuracy and performs 11× faster than its counterparts. Our code is publicly available at this https URL.",
+			"authors":["Shaowu Chen", "Weize Sun", "Lei Huang", "Xiaopeng Li", "Qingyuan Wang", "Deepu John"],
+			"code_data":"15/09/2023",
+			"code_number":"08499",
+			"link":"https://arxiv.org/abs/2309.08499"
+		}
+		
+	]
+}
